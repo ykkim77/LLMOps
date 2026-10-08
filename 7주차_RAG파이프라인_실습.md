@@ -73,7 +73,6 @@ kubectl get pods -n kubeflow
 **별도 터미널에서 실행**
 ```bash
 kubectl port-forward -n istio-system svc/istio-ingressgateway 8080:80
->>>>>>> 5e915b5 (a)
 ```
 
 **접속 확인**
