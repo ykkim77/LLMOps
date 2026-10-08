@@ -72,9 +72,6 @@ kubectl get pods -n kubeflow
 
 **별도 터미널에서 실행**
 ```bash
-<<<<<<< HEAD
-kubectl port-forward -n kubeflow svc/ml-pipeline-ui 8080:80
-=======
 kubectl port-forward -n istio-system svc/istio-ingressgateway 8080:80
 >>>>>>> 5e915b5 (a)
 ```
